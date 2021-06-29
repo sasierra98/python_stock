@@ -1,0 +1,61 @@
+BTCUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT") #Bitcoin Binance
+ETHUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=ETHUSDT") #Ethereum Binance
+BNBUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=BNBUSDT") #Binance
+ADAUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=ADAUSDT") #Cardano Binance
+DOGEUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=DOGEUSDT") #Dogecoin Binance
+XRPUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=XRPUSDT") #Ripple Binance
+DOTUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=DOTUSDT") #Polkador Binance
+UNIUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=UNIUSDT") #Uniswap Binance
+BHCUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=BHCUSDT") #Bitcoin Cash Binance
+LTCUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=LTCUSDT") #Litecoin Binance
+SOLUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=SOLUSDT") #Solana Binance
+LINKUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=LINKUSDT") #Chainlink Binance
+MATICUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=MATICUSDT") #Polygon Binance
+THETAUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=THETAUSDT") #Theta Binance
+WBTCUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=WBTCUSDT") #Wrap Bitcoin Binance
+ICPUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=ICPUSDT") #Internet Computer Binance
+XLMUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=XLMUSDT") #Stellar Binance
+ETCUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=ETCUSDT") #Ethereum Classic Binance
+VETUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=VETUSDT") #Vechain Binance
+TRXUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=TRXUSDT") #Tronx Binance
+FILUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=FILUSDT") #Filecoin Binance
+XRMUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=XRMUSDT") #Monero Binance
+EOSUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=EOSUSDT") #Eos Binance
+SHIBUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=SHIBUSDT") #Shibainu Binance
+AAVEUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=AAVEUSDT") #Aave Binance
+BSVUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=BSVUSDT") #
+CROUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=CROUSDT") #
+ALGOUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=ALGOUSDT") #Algorand Binance
+KLAYUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=KLAYUSDT") #Klayn
+CAKEUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=CAKEUSDT") #Pancakeswap Binance
+AMPUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=AMPUSDT") #Amp
+FTTUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=FTTUSDT") #FTX Token Binance
+NEOUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=NEOUSDT") #Neo Binance
+XTZUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=XTZUSDT") #Tezos Binance
+LUNAUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=LUNAUSDT") #Terra Binance
+ATOMUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=ATOMUSDT") #Cosmos Binance
+MIOTAUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=MIOTAUSDT") #iota Binance
+LEOUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=LEOUSDT") #UNUS SED LEO Bitfinex - OKEx - FTX
+TFUELUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=TFUELUSDT") #Theta Fuel Binance
+KSMUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=KSMUSDT") #Kusama Binance
+AVAXUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=AVAXUSDT") #Avalanche Binance
+HTUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=HTUSDT") #Huobi Token
+BTTUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=BTTUSDT") #Bittorrent Binance
+DCRUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=DCRUSDT") #Decred Binance
+GRTUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=GRTUSDT") #The Graph
+WAVESUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=WAVESUSDT") #Waves Binance
+CHZUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=CHZUSDT") #Chilliz Binance
+ZCASHUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=ZCASHUSDT") #ZCash Binance
+HOTUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=HOTUSDT") #Holo Binance
+SUSHIUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=SUSHIUSDT") #Sushiswap Binance
+ENJUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=ENJUSDT") #Enjin Coin Binance
+MDXUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=MDXUSDT") #MDEX Binance
+DGBUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=DGBUSDT") #Digibyte Binance
+OKBUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=OKBUSDT") #OKB
+SCUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=SCUSDT") #Siacoin Binance
+RVNUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=RVNUSDT") #Ravecoin
+BAKEUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=BAKEUSDT") #BakeriToken Binance
+i1INCHUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=1INCHUSDT") #1Inch Binance
+IOSTUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=IOSTUSDT")#Iost Binance
+WINUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=WINUSDT") #WinkLink Binance
+WAXPUSDT24h = requests.get("https://api.binance.com/api/v3/ticker/24hr?symbol=WAXPUSDT") #WAX Huobi Global
