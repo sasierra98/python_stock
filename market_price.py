@@ -1,7 +1,8 @@
 import json
+from pprint import pprint
 from firebase import firebase
 import requests
-
+import yfinance as yf
 
 class Price:
     def __init__(self):
@@ -26,6 +27,8 @@ for x in pendiente:
     x.pop('lastId')
     x.pop('closeTime')
     x.pop('openTime')
+
+#CRIPTOMONEDAS FILTRADAS
 
 final_coin.extend(list(filter_data(pendiente, 'BTCUSDT')))
 final_coin.extend(list(filter_data(pendiente, 'ETHUSDT')))
@@ -89,7 +92,7 @@ final_coin.extend(list(filter_data(pendiente, 'IOSTUSDT')))
 final_coin.extend(list(filter_data(pendiente, 'WINUSDT')))
 final_coin.extend(list(filter_data(pendiente, 'WAXUSDT')))
 
-with open("D:\python_stock\price.txt", "w+", encoding="utf-8") as f:
+with open("price.txt", "w+", encoding="utf-8") as f:
     for x in final_coin:
         f.write(str(x))
         f.write("\n")
